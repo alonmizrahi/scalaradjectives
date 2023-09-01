@@ -1,0 +1,1 @@
+run main.ipynb to finetune BERT on Cola dataset and save the model in this folder.
