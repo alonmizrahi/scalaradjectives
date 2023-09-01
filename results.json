@@ -1,0 +1,320 @@
+{
+  "crowd": {
+    "news": {
+      "albert-base-v2": {
+        "method1": {
+          "kendall": 0.247,
+          "pairwise": 0.623
+        },
+        "method2": {
+          "kendall": 0.61,
+          "pairwise": 0.805
+        }
+      },
+      "bert-base-uncased": {
+        "method1": {
+          "kendall": 0.403,
+          "pairwise": 0.701
+        },
+        "method2": {
+          "kendall": 0.61,
+          "pairwise": 0.805
+        }
+      },
+      "distilbert-base-uncased": {
+        "method1": {
+          "kendall": 0.351,
+          "pairwise": 0.675
+        },
+        "method2": {
+          "kendall": 0.585,
+          "pairwise": 0.793
+        }
+      },
+      "google/electra-base-generator": {
+        "method1": {
+          "kendall": 0.403,
+          "pairwise": 0.701
+        },
+        "method2": {
+          "kendall": 0.659,
+          "pairwise": 0.829
+        }
+      },
+      "roberta-base": {
+        "method1": {
+          "kendall": 0.273,
+          "pairwise": 0.636
+        },
+        "method2": {
+          "kendall": 0.585,
+          "pairwise": 0.793
+        }
+      }
+    },
+    "reviews": {
+      "albert-base-v2": {
+        "method1": {
+          "kendall": 0.273,
+          "pairwise": 0.636
+        },
+        "method2": {
+          "kendall": 0.585,
+          "pairwise": 0.793
+        }
+      },
+      "bert-base-uncased": {
+        "method1": {
+          "kendall": 0.403,
+          "pairwise": 0.701
+        },
+        "method2": {
+          "kendall": 0.634,
+          "pairwise": 0.817
+        }
+      },
+      "distilbert-base-uncased": {
+        "method1": {
+          "kendall": 0.247,
+          "pairwise": 0.623
+        },
+        "method2": {
+          "kendall": 0.561,
+          "pairwise": 0.78
+        }
+      },
+      "google/electra-base-generator": {
+        "method1": {
+          "kendall": 0.455,
+          "pairwise": 0.727
+        },
+        "method2": {
+          "kendall": 0.683,
+          "pairwise": 0.841
+        }
+      },
+      "roberta-base": {
+        "method1": {
+          "kendall": 0.143,
+          "pairwise": 0.571
+        },
+        "method2": {
+          "kendall": 0.634,
+          "pairwise": 0.817
+        }
+      }
+    }
+  },
+  "demelo": {
+    "news": {
+      "albert-base-v2": {
+        "method1": {
+          "kendall": 0.29,
+          "pairwise": 0.645
+        },
+        "method2": {
+          "kendall": 0.398,
+          "pairwise": 0.699
+        }
+      },
+      "bert-base-uncased": {
+        "method1": {
+          "kendall": 0.266,
+          "pairwise": 0.633
+        },
+        "method2": {
+          "kendall": 0.534,
+          "pairwise": 0.767
+        }
+      },
+      "distilbert-base-uncased": {
+        "method1": {
+          "kendall": 0.183,
+          "pairwise": 0.592
+        },
+        "method2": {
+          "kendall": 0.495,
+          "pairwise": 0.748
+        }
+      },
+      "google/electra-base-generator": {
+        "method1": {
+          "kendall": 0.207,
+          "pairwise": 0.604
+        },
+        "method2": {
+          "kendall": 0.417,
+          "pairwise": 0.709
+        }
+      },
+      "roberta-base": {
+        "method1": {
+          "kendall": 0.101,
+          "pairwise": 0.55
+        },
+        "method2": {
+          "kendall": 0.534,
+          "pairwise": 0.767
+        }
+      }
+    },
+    "reviews": {
+      "albert-base-v2": {
+        "method1": {
+          "kendall": 0.302,
+          "pairwise": 0.651
+        },
+        "method2": {
+          "kendall": 0.379,
+          "pairwise": 0.689
+        }
+      },
+      "bert-base-uncased": {
+        "method1": {
+          "kendall": 0.278,
+          "pairwise": 0.639
+        },
+        "method2": {
+          "kendall": 0.534,
+          "pairwise": 0.767
+        }
+      },
+      "distilbert-base-uncased": {
+        "method1": {
+          "kendall": 0.195,
+          "pairwise": 0.598
+        },
+        "method2": {
+          "kendall": 0.476,
+          "pairwise": 0.738
+        }
+      },
+      "google/electra-base-generator": {
+        "method1": {
+          "kendall": 0.254,
+          "pairwise": 0.627
+        },
+        "method2": {
+          "kendall": 0.398,
+          "pairwise": 0.699
+        }
+      },
+      "roberta-base": {
+        "method1": {
+          "kendall": 0.172,
+          "pairwise": 0.586
+        },
+        "method2": {
+          "kendall": 0.592,
+          "pairwise": 0.796
+        }
+      }
+    }
+  },
+  "wilkinson": {
+    "news": {
+      "albert-base-v2": {
+        "method1": {
+          "kendall": 0.826,
+          "pairwise": 0.913
+        },
+        "method2": {
+          "kendall": 0.75,
+          "pairwise": 0.875
+        }
+      },
+      "bert-base-uncased": {
+        "method1": {
+          "kendall": 0.565,
+          "pairwise": 0.783
+        },
+        "method2": {
+          "kendall": 0.875,
+          "pairwise": 0.938
+        }
+      },
+      "distilbert-base-uncased": {
+        "method1": {
+          "kendall": 0.565,
+          "pairwise": 0.783
+        },
+        "method2": {
+          "kendall": 0.875,
+          "pairwise": 0.938
+        }
+      },
+      "google/electra-base-generator": {
+        "method1": {
+          "kendall": 0.913,
+          "pairwise": 0.957
+        },
+        "method2": {
+          "kendall": 0.875,
+          "pairwise": 0.938
+        }
+      },
+      "roberta-base": {
+        "method1": {
+          "kendall": 0.217,
+          "pairwise": 0.609
+        },
+        "method2": {
+          "kendall": 0.75,
+          "pairwise": 0.875
+        }
+      }
+    },
+    "reviews": {
+      "albert-base-v2": {
+        "method1": {
+          "kendall": 0.652,
+          "pairwise": 0.826
+        },
+        "method2": {
+          "kendall": 0.75,
+          "pairwise": 0.875
+        }
+      },
+      "bert-base-uncased": {
+        "method1": {
+          "kendall": 0.652,
+          "pairwise": 0.826
+        },
+        "method2": {
+          "kendall": 0.75,
+          "pairwise": 0.875
+        }
+      },
+      "distilbert-base-uncased": {
+        "method1": {
+          "kendall": 0.478,
+          "pairwise": 0.739
+        },
+        "method2": {
+          "kendall": 0.75,
+          "pairwise": 0.875
+        }
+      },
+      "google/electra-base-generator": {
+        "method1": {
+          "kendall": 0.826,
+          "pairwise": 0.913
+        },
+        "method2": {
+          "kendall": 0.875,
+          "pairwise": 0.938
+        }
+      },
+      "roberta-base": {
+        "method1": {
+          "kendall": 0.391,
+          "pairwise": 0.696
+        },
+        "method2": {
+          "kendall": 0.75,
+          "pairwise": 0.875
+        }
+      }
+    }
+  }
+}
